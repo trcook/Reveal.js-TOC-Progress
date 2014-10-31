@@ -90,4 +90,40 @@ div.progress[style="display: block;"] ~ #toc-progress-footer
 	/*float: left;*/
 	margin-left: 0em;
 }
-
+#toc-progress-footer-main-inside ul {
+  width: 100%;
+  text-align: center;
+}
+#toc-progress-footer-main-inside ul li {
+  display: inline;
+  padding-left: 15px;
+  text-align: center;
+}
+#toc-progress-footer-secondary {
+  margin-left: 0px;
+}
+#toc-progress-footer-secondary-inside {
+  margin-left: 0px;
+}
+#toc-progress-footer-secondary-inside {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+#toc-progress-footer-secondary-inside ul {
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+}
+#toc-progress-footer-secondary-inside ul ul li {
+  margin-right: 5px;
+}
+#toc-progress-footer-secondary-inside ul ul li a {
+  color: auto;
+}
+#toc-progress-footer-secondary-inside ul li {
+  padding-right: 15px;
+  text-align: center;
+}
+#toc-progress-footer-secondary-inside ul li a {
+  text-align: center;
+}
